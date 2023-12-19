@@ -123,7 +123,7 @@ TEST(TSet, can_assign_set_of_less_size)
   EXPECT_EQ(set1, set2);
 }
 
-TEST(TSet, can_insert_non_existing_element_using_plus_operator)
+TEST(TSet, ng_plus_operator)
 {
   const int size = 4;
   const int k = 3;
